@@ -1,0 +1,182 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Second Workshop on Distributed Infrastructures for Deep Learning (DIDL) 2018</title>
+  <meta name="description" content="Distributed Deep Learning">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+   <link href="blog.css" rel="stylesheet">
+
+   <!--
+  <style>
+	table, th, td { border: 1px solid black; }
+  </style>
+  -->
+
+</head>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-16788810-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<body>
+
+      <div class="container" style="max-width:940px  !important;">
+      <div class="blog-masthead">
+  <p>
+    <a href="http://2018.middleware-conference.org/"><img src="header.jpeg" width="940" align='center' ></img></a>
+  </p>
+      </div>
+    </div>
+
+
+    <div class="container" style="max-width:940px  !important;">
+
+      <div class="blog-header">
+        <h1 class="blog-title">Second Workshop on Distributed Infrastructures for Deep Learning (DIDL) 2018</h1>
+        <p class="lead blog-description"><a href="http://2018.middleware-conference.org/index.php/workshops/">Middleware 2018 Workshops</a></p>
+        <p class="blog-description"> </p>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 blog-main">
+     <div class="blog-post">
+
+<p align="justify">
+The DIDL workshop is co-located with <a href="http://2018.middleware-conference.org">ACM/IFIP Middleware 2018</a>, and takes place on December 10 at Rennes, France.
+
+<p align="justify">
+Deep learning is a rapidly growing field of machine learning, and has proven successful in many domains, including computer vision, language translation, and speech recognition. The training of deep neural networks is resource intensive, requiring compute accelerators such as GPUs, as well as large amounts of storage and memory, and network bandwidth. Additionally, getting the training data ready requires a lot of tooling for data cleansing, data merging, ambiguity resolution, etc. Sophisticated middleware abstractions are needed to schedule resources, manage the distributed training job as well as visualize how well the training is progressing. Likewise, serving the large neural network models with low latency constraints can require middleware to manage model caching, selection, and refinement.
+
+<p align="justify">
+All the major cloud providers, including Amazon, Google, IBM, and  Microsoft have started to offer cloud services in the last year or so with services to train and/or serve deep neural network models. In addition, there is a lot of activity in open source middleware for deep learning, including Tensorflow, Theano, Caffe2, PyTorch, and MXNet. There are also efforts to extend existing platforms such as Spark for deep learning workloads.
+
+<p align="justify">
+This workshop focuses on the tools, frameworks, and algorithms to support executing deep learning algorithms in a distributed environment. As new hardware and accelerators become available, the middleware and systems need to be able exploit their capabilities and ensure they are utilized efficiently.
+
+
+<h2>Agenda</h2>
+
+<p><strong>Introduction and tutorial on deep learning (9:00 - 9:30)</strong></br>
+Bishwaranjan Bhattacharjee (IBM Research)
+
+<p><strong>Keynote #1: Building a Distributed Deep Learning Product - From Idea to 250 Live Customers - Lessons Learned (9:30 - 10:30)</strong></br>
+Zbigniew Jerzak (SAP)
+
+<p> In this talk we are going to present a full 2 year journey from an initial idea to a medium sized, cloud-based, deep learning product that serves over 200 customers in production. We are specifically going to focus on technical challenges faced by the team as well as the organizational aspects. We are going to talk about the solutions that worked out as well as the ones that did not work out in order to provide the audience with a glimpse behind the curtains of commercial business to business software development.
+
+<p> Bio: Zbigniew Jerzak is the Head of the Deep Learning Center of Excellence and Machine Learning Research at SAP. The mission of the Deep Learning Center of Excellence and Machine Learning Research is to research and develop machine learning technology behind existing and new SAP products. Our technology is serving hundreds of SAP customers and is touching millions of transactions every month. Zbigniew holds a PhD degree in Distributed Systems from the TU Dresden, Germany.
+
+<p><strong>Break (10:30 - 11:00)</strong></br>
+
+<p><strong>Paper presentations #1 (11:00 - 12:00)</strong></br>
+
+<p><i><a href="https://dl.acm.org/citation.cfm?id=3286559">A performance evaluation of federated learning algorithms</i></a></br>
+Adrian Nilsson, Simon Smith, Gregor Ulm, Emil Gustavsson, Mats Jirstrand (Fraunhofer-Chalmers Centre & Fraunhofer Center for Machine Learning)</br>
+Presentation [<a href="didl18_presentation1.pdf">PDF</a>]</br>
+
+<p><i><a href="https://dl.acm.org/citation.cfm?id=3286560">Distributed C++-Python embedding for fast predictions and fast prototyping</a></i></br>
+Georgios Varisteas (University of Luxembourg), Tigran Avanesov (OlaMobile), Radu State (University of Luxembourg)</br>
+Presentation [<a href="didl18_presentation2.pdf">PDF</a>]</br>
+
+<p><strong>Lunch (12:00 - 1:30)</strong></br>
+
+<p><strong>Keynote #2: Robust scheduling and elastic scaling of deep learning workloads (1:30 - 2:30)</strong></br>
+Jayaram K. R. (IBM Research)
+
+<p> Jayaram K. R. is a research scientist at IBM Research (T. J. Watson Research Center), NY, USA. He is interested in distributed systems and distributed programming. Specific topics of interest include large scale machine/deep learning platforms, elasticity in cloud computing, and event-based systems. He holds M.S. and PhD degrees in Computer Science from Purdue University, USA. More information at http://www.jayaramkr.com
+<br>Presentation [<a href="DIDL2018Keynote2.pdf">PDF</a>]</br>
+<p><strong>Paper presentations #2 (2:30 - 3:00)</strong></br>
+
+<p><i><a href="https://dl.acm.org/citation.cfm?id=3286561">Parallelized training of deep NN – comparison of current concepts and frameworks</a></i></br>
+Sebastian Jäger (inovex GmbH, Karlsruhe, Germany), Stefan Igel (inovex GmbH, Karlsruhe, Germany), Christian Zirpins (Karlsruhe University of Applied Sciences), Hans-Peter Zorn (inovex GmbH, Karlsruhe, Germany)</br>
+Presentation [<a href="didl18_presentation3.pdf">PDF</a>]</br>
+
+<p><strong>Break (3:00 - 3:30)</strong></br>
+
+<p><strong>Paper presentations #3 (3:30 - 4:15)</strong></br>
+
+<p><i><a href="https://dl.acm.org/citation.cfm?id=3286562">Object Storage for Deep Learning Frameworks</a></i></br>
+Or Ozeri, Effi Ofer, Ronen Kat (IBM Research)</br>
+Presentation [<a href="didl18_presentation4.pdf">PDF</a>]</br>
+
+<p><i><a href="https://dl.acm.org/citation.cfm?id=3286563">Gossiping GANs</a></i></br>
+Hardy Corentin (INRIA/Technicolor), Le Merrer Erwan (Technicolor), Sericola Bruno (INRIA)</br>
+Presentation [<a href="didl18_presentation5.pdf">PDF</a>]</br>
+
+<p><strong>Closing remarks (4:15 - 4:30)</strong></br>
+
+
+<h2>Workshop call for papers</h2>
+<a href="cfp.html">Call For Papers (CFP)</a>
+
+  <h2>
+    Workshop Co-chairs
+  </h2>
+
+  <p>
+    Bishwaranjan Bhattacharjee, IBM Research<br/>
+    Vatche Ishakian, Bentley University<br/>
+    Vinod Muthusamy, IBM Research<br/>
+  </p>
+
+  <h2>
+    Program Committee
+  </h2>
+
+  <p>
+    Parag Chandakkar, Walmart Labs <br/>
+    Ian Foster, Argonne National Laboratory and the University of Chicago <br/>
+    Benoit Huet, Eurecom <br/>
+    Gauri Joshi, Carnegie Mellon University<br/>
+    Ruben Mayer, Technical University of Munich<br/>
+    Pietro Michiardi, Eurecom<br/>
+    Peter Pietzuch, Imperial College<br/>
+    Evgenia Smirni, College of William and Mary<br/>
+    Yandong Wang, Citadel Securities<br/>
+    Chuan Wu, University of Hong Kong<br/>
+  </p>
+
+
+         <p>
+    &nbsp;
+  </p>
+         <p>
+    &nbsp;
+  </p>
+
+
+
+          </div><!-- /.blog-post -->
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+</body>
+
+</html>
