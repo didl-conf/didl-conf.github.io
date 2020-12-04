@@ -95,6 +95,7 @@ This workshop focuses on the tools, frameworks, and algorithms to support execut
     affect model convergence; system parameters (e.g. the number of workers
     and their communication topology) impact training performance. In
     current systems, adapting such parameters during training is ill-supported.
+
     In this talk, I will describe our recent work on KungFu, a distributed
     ML library for TensorFlow and PyTorch that is designed to enable
     adaptive training. KungFu allows users to express high-level Adaptation
@@ -105,7 +106,7 @@ This workshop focuses on the tools, frameworks, and algorithms to support execut
     For execution, APs are translated into monitoring and control operators,
     which are embedded in the dataflow graph. APs exploit an efficient
     asynchronous collective communication layer, which ensures concurrency
-    and consistency of monitoring and adaptation operations.</p>
+    and consistency of monitoring and adaptation operations. (This work has appeared in USENIX OSDI 2020.)</p>
 
   <p><strong>Bio:</strong>
     Peter Pietzuch is a Professor of Distributed Systems at Imperial College
